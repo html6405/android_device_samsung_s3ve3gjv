@@ -20,7 +20,7 @@ cc_library_static {
     srcs: ["init_s3ve3g.cpp"],
     include_dirs: [
         "device/samsung/msm8226-common/init",
-        "system/core/base/include",
+        "system/core/include",
         "system/core/init",
     ],
     shared_libs: [
